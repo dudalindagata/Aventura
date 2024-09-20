@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(216, 62, 170);
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+ }
+
+ button {
+    background-color: rgb(243, 162, 209);
+    color: rgb(0, 0, 0);
+    font-family: "Libre Baskerville", serif;
+ }
+
+ .passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+   text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
